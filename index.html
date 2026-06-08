@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c1218" />
+    <title>隔夜持股</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar" aria-label="隔夜持股">
+        <div>
+          <p class="eyebrow">Overnight Holding</p>
+          <h1>隔夜持股</h1>
+          <p class="subtitle">尾盘潜伏名单 · 次日冲高验证 · 本地 skill 快照</p>
+        </div>
+        <div class="sync-pill" id="syncTime">同步中</div>
+      </section>
+
+      <section class="metrics" aria-label="核心指标">
+        <article>
+          <span>最新交易日</span>
+          <strong id="latestDate">--</strong>
+        </article>
+        <article>
+          <span>攻防状态</span>
+          <strong id="mode">--</strong>
+        </article>
+        <article>
+          <span>昨日验证胜率</span>
+          <strong class="danger" id="winRate">--</strong>
+        </article>
+        <article>
+          <span>数据来源</span>
+          <strong>本地 skill</strong>
+        </article>
+      </section>
+
+      <section class="layout">
+        <div>
+          <div class="section-title">
+            <h2>今日策略</h2>
+            <p id="todayNote">读取本地 skill 快照。</p>
+          </div>
+          <div class="stock-list" id="stockList"></div>
+        </div>
+
+        <aside>
+          <section class="panel">
+            <h2>避险提示</h2>
+            <div class="avoid-list" id="avoidList"></div>
+          </section>
+
+          <section class="panel">
+            <h2>当前参数</h2>
+            <dl class="params" id="paramList"></dl>
+          </section>
+        </aside>
+      </section>
+
+      <section class="history-section">
+        <div class="section-title">
+          <h2>历史战绩</h2>
+          <p>胜率只来自本地 skill 已写入验证结果的交易日。</p>
+        </div>
+        <div class="summary">
+          <article><span>累计记录</span><strong id="totalDays">0</strong></article>
+          <article><span>已验证</span><strong id="verifiedDays">0</strong></article>
+          <article><span>平均胜率</span><strong class="danger" id="avgRate">0%</strong></article>
+        </div>
+        <div class="bars" id="bars"></div>
+        <div class="history-list" id="historyList"></div>
+      </section>
+
+      <footer>
+        公开版仅展示本地 skill 快照，不构成投资建议。更新数据时重新发布快照即可。
+      </footer>
+    </main>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
