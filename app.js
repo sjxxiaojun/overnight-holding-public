@@ -22,6 +22,12 @@ function modeFor(winRate, pickCount) {
   return pickCount >= 3 ? "激进进攻" : "稳健防守";
 }
 
+function resultLabel(pick, recordVerified) {
+  if (pick.reached_target === true) return "是";
+  if (pick.reached_target === false) return "否";
+  return recordVerified ? "汇总已验证" : "待验证";
+}
+
 function renderPicks(picks) {
   const list = byId("stockList");
   if (!picks.length) {
@@ -88,13 +94,14 @@ function renderHistory(entries) {
   byId("historyList").innerHTML = [...entries].reverse().map((record) => {
     const verified = typeof record.win_rate === "number";
     const mode = modeFor(record.win_rate, (record.picks || []).length);
+    const aggregateOnly = verified && !(record.picks || []).some((pick) => pick.reached_target != null);
     const rows = (record.picks || []).map((pick) => `
       <div class="history-row">
         <span><b>${pick.name}</b><small class="muted">${pick.symkey}</small></span>
         <span>${num(pick.buy_price)}</span>
         <span>${pick.today_high || "--"}</span>
         <span>${pick.price_change_str || "--"}</span>
-        <span>${pick.reached_target == null ? "待验证" : pick.reached_target ? "是" : "否"}</span>
+        <span>${resultLabel(pick, verified)}</span>
       </div>
     `).join("");
     return `
@@ -104,6 +111,7 @@ function renderHistory(entries) {
           <span class="${mode === "稳健防守" ? "cold" : "hot"}">${mode}</span>
           <span>${verified ? fmtPct(record.win_rate) : "待验证"}</span>
         </div>
+        ${aggregateOnly ? `<p class="aggregate-note">本地快照已保存汇总胜率，未保存逐票最高价明细。</p>` : ""}
         ${rows}
       </article>`;
   }).join("");

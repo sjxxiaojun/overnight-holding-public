@@ -1,0 +1,41 @@
+name: Update overnight holding snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 6 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Update snapshot
+        run: node scripts/update-state.mjs
+      - name: Commit updated snapshot
+        run: |
+          if ! git diff --quiet -- data/state.json data/meta.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/state.json data/meta.json
+            printf '%s\n' \
+              'Refresh public overnight snapshot from market data' \
+              '' \
+              'The public GitHub Pages site is static, so the scheduled job commits the generated snapshot after the updater verifies prior picks and scans the latest trading day.' \
+              '' \
+              'Constraint: GitHub Pages cannot run server-side refresh logic' \
+              'Confidence: high' \
+              'Scope-risk: narrow' \
+              'Tested: node scripts/update-state.mjs' \
+              > /tmp/commit-message.txt
+            git commit -F /tmp/commit-message.txt
+            git push
+          else
+            echo "No snapshot changes."
+          fi

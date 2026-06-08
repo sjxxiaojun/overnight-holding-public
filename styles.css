@@ -306,6 +306,12 @@ aside {
   align-items: center;
 }
 
+.aggregate-note {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 .history-row {
   display: grid;
   grid-template-columns: 1.4fr repeat(4, 1fr);

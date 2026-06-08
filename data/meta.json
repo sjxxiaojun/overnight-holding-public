@@ -1,4 +1,27 @@
 {
-  "source": "local_skill",
-  "generatedAt": "2026-06-08T12:37:12.151Z"
+  "generatedAt": "2026-06-08T13:07:06.241Z",
+  "source": "github-actions",
+  "targetDate": "2026-06-08",
+  "verification": {
+    "verified": true,
+    "previousDate": "2026-06-05",
+    "total": 5,
+    "wins": 1,
+    "winRate": 0.2,
+    "message": "2026-06-05 已在 2026-06-08 验证过。"
+  },
+  "optimization": {
+    "modeSignal": "保持",
+    "params": {
+      "min_turnover": 291600000,
+      "max_dist_ma10": 0.064,
+      "max_amplitude": 0.135,
+      "min_drop_5d": -0.08
+    },
+    "previousDate": null
+  },
+  "scan": {
+    "skipped": true,
+    "reason": "目标交易日已有持仓快照"
+  }
 }
