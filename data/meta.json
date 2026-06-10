@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-06-09T10:24:17.606Z",
+  "generatedAt": "2026-06-10T10:44:56.557Z",
   "source": "github-actions",
-  "targetDate": "2026-06-09",
+  "targetDate": "2026-06-10",
   "verification": {
     "verified": true,
-    "previousDate": "2026-06-08",
+    "previousDate": "2026-06-09",
     "total": 5,
-    "wins": 4,
-    "winRate": 0.8,
-    "message": "验证完毕：5 只标的，4 只达到 >2% 次日冲高。"
+    "wins": 0,
+    "winRate": 0,
+    "message": "验证完毕：5 只标的，0 只达到 >2% 次日冲高。"
   },
   "optimization": {
-    "modeSignal": "放宽",
+    "modeSignal": "收紧",
     "params": {
-      "min_turnover": 262440000,
-      "max_dist_ma10": 0.0704,
-      "max_amplitude": 0.14850000000000002,
-      "min_drop_5d": -0.15
+      "min_turnover": 314928000,
+      "max_dist_ma10": 0.05632000000000001,
+      "max_amplitude": 0.13365000000000002,
+      "min_drop_5d": -0.08
     },
-    "previousDate": "2026-06-08",
-    "winRate": 0.8
+    "previousDate": "2026-06-09",
+    "winRate": 0
   },
   "scan": {
     "picks": [
-      "中际旭创(300308.XSHE)",
-      "沪电股份(002463.XSHE)",
-      "通富微电(002156.XSHE)",
-      "鹏鼎控股(002938.XSHE)",
-      "光库科技(300620.XSHE)"
+      "新易盛(300502.XSHE)",
+      "长电科技(600584.XSHG)",
+      "博迁新材(605376.XSHG)",
+      "生益科技(600183.XSHG)",
+      "中兴通讯(000063.XSHE)"
     ],
     "avoidCount": 3,
     "candidateCount": 150,
-    "filteredCount": 118
+    "filteredCount": 116
   }
 }
