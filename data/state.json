@@ -746,7 +746,11 @@
           "stop_loss": 750.87,
           "take_profit": 793.36,
           "position": "8%",
-          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出",
+          "today_high": "575.00",
+          "price_change": -25.57,
+          "price_change_str": "-25.57%",
+          "reached_target": false
         },
         {
           "symkey": "600584.XSHG",
@@ -759,7 +763,11 @@
           "stop_loss": 71.98,
           "take_profit": 76.05,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "74.26",
+          "price_change": 0.28,
+          "price_change_str": "+0.28%",
+          "reached_target": false
         },
         {
           "symkey": "605376.XSHG",
@@ -772,7 +780,11 @@
           "stop_loss": 188.57,
           "take_profit": 199.24,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "200.80",
+          "price_change": 3.51,
+          "price_change_str": "+3.51%",
+          "reached_target": true
         },
         {
           "symkey": "600183.XSHG",
@@ -785,7 +797,11 @@
           "stop_loss": 142.79,
           "take_profit": 150.87,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "153.50",
+          "price_change": 4.49,
+          "price_change_str": "+4.49%",
+          "reached_target": true
         },
         {
           "symkey": "000063.XSHE",
@@ -798,7 +814,11 @@
           "stop_loss": 37.34,
           "take_profit": 39.46,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "39.50",
+          "price_change": 2.81,
+          "price_change_str": "+2.81%",
+          "reached_target": true
         }
       ],
       "avoid_buys": [
@@ -816,6 +836,94 @@
           "symkey": "688549.XSHG",
           "name": "中巨芯-U",
           "reason": "涨幅约10.5%且涨停、振幅约17.1%，强但不是低吸点，次日容易分歧"
+        }
+      ],
+      "win_rate": 0.6,
+      "verified_on": "2026-06-11"
+    },
+    "2026-06-11": {
+      "picks": [
+        {
+          "symkey": "603986.XSHG",
+          "name": "兆易创新",
+          "score": 100,
+          "buy_price": 483.5,
+          "trigger_low": 478.67,
+          "trigger_high": 485.92,
+          "trigger_range": "478.67 - 485.92",
+          "stop_loss": 469.96,
+          "take_profit": 496.55,
+          "position": "8%",
+          "plan": "半导体强势但涨幅已大，必须区间内低吸"
+        },
+        {
+          "symkey": "300285.XSHE",
+          "name": "国瓷材料",
+          "score": 70,
+          "buy_price": 62.4,
+          "trigger_low": 61.78,
+          "trigger_high": 62.71,
+          "trigger_range": "61.78 - 62.71",
+          "stop_loss": 60.65,
+          "take_profit": 64.08,
+          "position": "8%",
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+        },
+        {
+          "symkey": "600105.XSHG",
+          "name": "永鼎股份",
+          "score": 70,
+          "buy_price": 52.33,
+          "trigger_low": 51.81,
+          "trigger_high": 52.59,
+          "trigger_range": "51.81 - 52.59",
+          "stop_loss": 50.86,
+          "take_profit": 53.74,
+          "position": "8%",
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+        },
+        {
+          "symkey": "600330.XSHG",
+          "name": "天通股份",
+          "score": 70,
+          "buy_price": 29.31,
+          "trigger_low": 29.02,
+          "trigger_high": 29.46,
+          "trigger_range": "29.02 - 29.46",
+          "stop_loss": 28.49,
+          "take_profit": 30.1,
+          "position": "8%",
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+        },
+        {
+          "symkey": "300757.XSHE",
+          "name": "罗博特科",
+          "score": 70,
+          "buy_price": 620,
+          "trigger_low": 613.8,
+          "trigger_high": 623.1,
+          "trigger_range": "613.8 - 623.1",
+          "stop_loss": 602.64,
+          "take_profit": 636.74,
+          "position": "8%",
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+        }
+      ],
+      "avoid_buys": [
+        {
+          "symkey": "688322.XSHG",
+          "name": "奥比中光-W",
+          "reason": "跌幅约-7.4%，5日跌幅约8.7%，属于高位急跌，不适合尾盘接飞刀"
+        },
+        {
+          "symkey": "300346.XSHE",
+          "name": "南大光电",
+          "reason": "涨幅约8.1%、振幅约11.0%，强但不是低吸点，次日容易分歧"
+        },
+        {
+          "symkey": "600378.XSHG",
+          "name": "昊华科技",
+          "reason": "涨幅约10.0%且涨停、振幅约5.0%，强但不是低吸点，次日容易分歧"
         }
       ]
     }
