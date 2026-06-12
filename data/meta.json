@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-06-11T11:15:18.114Z",
+  "generatedAt": "2026-06-12T10:53:14.528Z",
   "source": "github-actions",
-  "targetDate": "2026-06-11",
+  "targetDate": "2026-06-12",
   "verification": {
     "verified": true,
-    "previousDate": "2026-06-10",
+    "previousDate": "2026-06-11",
     "total": 5,
-    "wins": 3,
-    "winRate": 0.6,
-    "message": "验证完毕：5 只标的，3 只达到 >2% 次日冲高。"
+    "wins": 5,
+    "winRate": 1,
+    "message": "验证完毕：5 只标的，5 只达到 >2% 次日冲高。"
   },
   "optimization": {
-    "modeSignal": "保持",
+    "modeSignal": "放宽",
     "params": {
-      "min_turnover": 314928000,
-      "max_dist_ma10": 0.05632000000000001,
-      "max_amplitude": 0.13365000000000002,
-      "min_drop_5d": -0.08
+      "min_turnover": 283435200,
+      "max_dist_ma10": 0.061952000000000014,
+      "max_amplitude": 0.14701500000000003,
+      "min_drop_5d": -0.15
     },
-    "previousDate": "2026-06-10",
-    "winRate": 0.6
+    "previousDate": "2026-06-11",
+    "winRate": 1
   },
   "scan": {
     "picks": [
+      "中际旭创(300308.XSHE)",
       "兆易创新(603986.XSHG)",
-      "国瓷材料(300285.XSHE)",
-      "永鼎股份(600105.XSHG)",
-      "天通股份(600330.XSHG)",
-      "罗博特科(300757.XSHE)"
+      "工业富联(601138.XSHG)",
+      "生益科技(600183.XSHG)",
+      "阳光电源(300274.XSHE)"
     ],
     "avoidCount": 3,
     "candidateCount": 150,
-    "filteredCount": 99
+    "filteredCount": 103
   }
 }
