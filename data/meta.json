@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-06-17T11:23:28.012Z",
+  "generatedAt": "2026-06-18T11:02:33.409Z",
   "source": "github-actions",
-  "targetDate": "2026-06-17",
+  "targetDate": "2026-06-18",
   "verification": {
     "verified": true,
-    "previousDate": "2026-06-16",
+    "previousDate": "2026-06-17",
     "total": 5,
-    "wins": 3,
-    "winRate": 0.6,
-    "message": "验证完毕：5 只标的，3 只达到 >2% 次日冲高。"
+    "wins": 4,
+    "winRate": 0.8,
+    "message": "验证完毕：5 只标的，4 只达到 >2% 次日冲高。"
   },
   "optimization": {
-    "modeSignal": "保持",
+    "modeSignal": "放宽",
     "params": {
-      "min_turnover": 229582512,
-      "max_dist_ma10": 0.07496192000000003,
+      "min_turnover": 206624261,
+      "max_dist_ma10": 0.08,
       "max_amplitude": 0.15,
-      "min_drop_5d": -0.18150000000000002
+      "min_drop_5d": -0.19965000000000005
     },
-    "previousDate": "2026-06-16",
-    "winRate": 0.6
+    "previousDate": "2026-06-17",
+    "winRate": 0.8
   },
   "scan": {
     "picks": [
-      "中际旭创(300308.XSHE)",
-      "工业富联(601138.XSHG)",
-      "三安光电(600703.XSHG)",
       "中兴通讯(000063.XSHE)",
-      "中信证券(600030.XSHG)"
+      "多氟多(002407.XSHE)",
+      "沪硅产业(688126.XSHG)",
+      "立昂微(605358.XSHG)",
+      "亨通光电(600487.XSHG)"
     ],
     "avoidCount": 3,
     "candidateCount": 150,
-    "filteredCount": 118
+    "filteredCount": 128
   }
 }
