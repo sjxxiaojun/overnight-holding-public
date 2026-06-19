@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T11:02:33.409Z",
+  "generatedAt": "2026-06-19T11:07:43.964Z",
   "source": "github-actions",
   "targetDate": "2026-06-18",
   "verification": {
@@ -8,29 +8,20 @@
     "total": 5,
     "wins": 4,
     "winRate": 0.8,
-    "message": "验证完毕：5 只标的，4 只达到 >2% 次日冲高。"
+    "message": "2026-06-17 已在 2026-06-18 验证过。"
   },
   "optimization": {
-    "modeSignal": "放宽",
+    "modeSignal": "保持",
     "params": {
       "min_turnover": 206624261,
       "max_dist_ma10": 0.08,
       "max_amplitude": 0.15,
       "min_drop_5d": -0.19965000000000005
     },
-    "previousDate": "2026-06-17",
-    "winRate": 0.8
+    "previousDate": null
   },
   "scan": {
-    "picks": [
-      "中兴通讯(000063.XSHE)",
-      "多氟多(002407.XSHE)",
-      "沪硅产业(688126.XSHG)",
-      "立昂微(605358.XSHG)",
-      "亨通光电(600487.XSHG)"
-    ],
-    "avoidCount": 3,
-    "candidateCount": 150,
-    "filteredCount": 128
+    "skipped": true,
+    "reason": "目标交易日已有持仓快照"
   }
 }
