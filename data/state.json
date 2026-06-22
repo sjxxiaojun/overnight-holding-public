@@ -1,9 +1,9 @@
 {
   "params": {
-    "min_turnover": 206624261,
+    "min_turnover": 200000000,
     "max_dist_ma10": 0.08,
     "max_amplitude": 0.15,
-    "min_drop_5d": -0.19965000000000005
+    "min_drop_5d": -0.21961500000000006
   },
   "history": {
     "2026-05-29": {
@@ -1394,7 +1394,11 @@
           "stop_loss": 36.83,
           "take_profit": 38.91,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "39.66",
+          "price_change": 4.67,
+          "price_change_str": "+4.67%",
+          "reached_target": true
         },
         {
           "symkey": "002407.XSHE",
@@ -1407,7 +1411,11 @@
           "stop_loss": 37.69,
           "take_profit": 39.83,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "42.66",
+          "price_change": 10.01,
+          "price_change_str": "+10.01%",
+          "reached_target": true
         },
         {
           "symkey": "688126.XSHG",
@@ -1420,7 +1428,11 @@
           "stop_loss": 31.3,
           "take_profit": 33.07,
           "position": "8%",
-          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出",
+          "today_high": "34.28",
+          "price_change": 6.46,
+          "price_change_str": "+6.46%",
+          "reached_target": true
         },
         {
           "symkey": "605358.XSHG",
@@ -1433,7 +1445,11 @@
           "stop_loss": 68.23,
           "take_profit": 72.1,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "72.00",
+          "price_change": 2.56,
+          "price_change_str": "+2.56%",
+          "reached_target": true
         },
         {
           "symkey": "600487.XSHG",
@@ -1446,7 +1462,11 @@
           "stop_loss": 107.9,
           "take_profit": 114.01,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "121.99",
+          "price_change": 9.89,
+          "price_change_str": "+9.89%",
+          "reached_target": true
         }
       ],
       "avoid_buys": [
@@ -1464,6 +1484,94 @@
           "symkey": "688549.XSHG",
           "name": "中巨芯-U",
           "reason": "涨幅约2.4%、振幅约10.9%，虽主线没问题，但尾盘偏离10日线约32.0%，位置偏高"
+        }
+      ],
+      "win_rate": 1,
+      "verified_on": "2026-06-22"
+    },
+    "2026-06-22": {
+      "picks": [
+        {
+          "symkey": "601138.XSHG",
+          "name": "工业富联",
+          "score": 70,
+          "buy_price": 78.88,
+          "trigger_low": 78.09,
+          "trigger_high": 79.27,
+          "trigger_range": "78.09 - 79.27",
+          "stop_loss": 76.67,
+          "take_profit": 81.01,
+          "position": "8%",
+          "plan": "次日冲高优先兑现；弱开09:45不收复买入价退出"
+        },
+        {
+          "symkey": "002747.XSHE",
+          "name": "埃斯顿",
+          "score": 70,
+          "buy_price": 37.19,
+          "trigger_low": 36.82,
+          "trigger_high": 37.38,
+          "trigger_range": "36.82 - 37.38",
+          "stop_loss": 36.15,
+          "take_profit": 38.19,
+          "position": "8%",
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+        },
+        {
+          "symkey": "603005.XSHG",
+          "name": "晶方科技",
+          "score": 70,
+          "buy_price": 46.53,
+          "trigger_low": 46.06,
+          "trigger_high": 46.76,
+          "trigger_range": "46.06 - 46.76",
+          "stop_loss": 45.23,
+          "take_profit": 47.79,
+          "position": "8%",
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+        },
+        {
+          "symkey": "300502.XSHE",
+          "name": "新易盛",
+          "score": 50,
+          "buy_price": 579.97,
+          "trigger_low": 574.17,
+          "trigger_high": 582.87,
+          "trigger_range": "574.17 - 582.87",
+          "stop_loss": 563.73,
+          "take_profit": 595.63,
+          "position": "8%",
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+        },
+        {
+          "symkey": "300390.XSHE",
+          "name": "天华新能",
+          "score": 50,
+          "buy_price": 91.8,
+          "trigger_low": 90.88,
+          "trigger_high": 92.26,
+          "trigger_range": "90.88 - 92.26",
+          "stop_loss": 89.23,
+          "take_profit": 94.28,
+          "position": "8%",
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+        }
+      ],
+      "avoid_buys": [
+        {
+          "symkey": "300136.XSHE",
+          "name": "信维通信",
+          "reason": "跌幅约-7.6%，5日跌幅约2.5%，属于高位急跌，不适合尾盘接飞刀"
+        },
+        {
+          "symkey": "301396.XSHE",
+          "name": "宏景科技",
+          "reason": "涨幅约15.7%、振幅约17.3%，强但不是低吸点，次日容易分歧"
+        },
+        {
+          "symkey": "300475.XSHE",
+          "name": "香农芯创",
+          "reason": "涨幅约12.9%、振幅约13.3%，强但不是低吸点，次日容易分歧"
         }
       ]
     }
