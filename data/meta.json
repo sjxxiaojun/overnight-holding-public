@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-23T10:23:45.082Z",
+  "generatedAt": "2026-06-24T10:01:48.117Z",
   "source": "github-actions",
-  "targetDate": "2026-06-23",
+  "targetDate": "2026-06-24",
   "verification": {
     "verified": true,
-    "previousDate": "2026-06-22",
+    "previousDate": "2026-06-23",
     "total": 5,
     "wins": 2,
     "winRate": 0.4,
@@ -13,24 +13,24 @@
   "optimization": {
     "modeSignal": "收紧",
     "params": {
-      "min_turnover": 240000000,
-      "max_dist_ma10": 0.064,
-      "max_amplitude": 0.135,
-      "min_drop_5d": -0.08
+      "min_turnover": 288000000,
+      "max_dist_ma10": 0.0512,
+      "max_amplitude": 0.12150000000000001,
+      "min_drop_5d": -0.064
     },
-    "previousDate": "2026-06-22",
+    "previousDate": "2026-06-23",
     "winRate": 0.4
   },
   "scan": {
     "picks": [
-      "大唐发电(601991.XSHG)",
-      "晶方科技(603005.XSHG)",
-      "华泰证券(601688.XSHG)",
-      "中信证券(600030.XSHG)",
-      "立讯精密(002475.XSHE)"
+      "中际旭创(300308.XSHE)",
+      "新易盛(300502.XSHE)",
+      "三环集团(300408.XSHE)",
+      "阳光电源(300274.XSHE)",
+      "北方稀土(600111.XSHG)"
     ],
     "avoidCount": 3,
     "candidateCount": 150,
-    "filteredCount": 143
+    "filteredCount": 125
   }
 }
