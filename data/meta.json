@@ -1,36 +1,33 @@
 {
-  "generatedAt": "2026-06-24T10:01:48.117Z",
+  "generatedAt": "2026-06-26T10:02:02.498Z",
   "source": "github-actions",
-  "targetDate": "2026-06-24",
+  "targetDate": "2026-06-26",
   "verification": {
     "verified": true,
-    "previousDate": "2026-06-23",
+    "previousDate": "2026-06-24",
     "total": 5,
-    "wins": 2,
-    "winRate": 0.4,
-    "message": "验证完毕：5 只标的，2 只达到 >2% 次日冲高。"
+    "wins": 3,
+    "winRate": 0.6,
+    "message": "验证完毕：5 只标的，3 只达到 >2% 次日冲高。"
   },
   "optimization": {
-    "modeSignal": "收紧",
+    "modeSignal": "保持",
     "params": {
       "min_turnover": 288000000,
       "max_dist_ma10": 0.0512,
       "max_amplitude": 0.12150000000000001,
       "min_drop_5d": -0.064
     },
-    "previousDate": "2026-06-23",
-    "winRate": 0.4
+    "previousDate": "2026-06-24",
+    "winRate": 0.6
   },
   "scan": {
     "picks": [
-      "中际旭创(300308.XSHE)",
-      "新易盛(300502.XSHE)",
-      "三环集团(300408.XSHE)",
       "阳光电源(300274.XSHE)",
-      "北方稀土(600111.XSHG)"
+      "德福科技(301511.XSHE)"
     ],
     "avoidCount": 3,
     "candidateCount": 150,
-    "filteredCount": 125
+    "filteredCount": 145
   }
 }
