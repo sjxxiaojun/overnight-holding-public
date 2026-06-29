@@ -1,9 +1,9 @@
 {
   "params": {
-    "min_turnover": 288000000,
-    "max_dist_ma10": 0.0512,
-    "max_amplitude": 0.12150000000000001,
-    "min_drop_5d": -0.064
+    "min_turnover": 259200000,
+    "max_dist_ma10": 0.05632000000000001,
+    "max_amplitude": 0.13365000000000002,
+    "min_drop_5d": -0.15
   },
   "history": {
     "2026-05-29": {
@@ -1826,7 +1826,11 @@
           "stop_loss": 146.82,
           "take_profit": 155.13,
           "position": "8%",
-          "plan": "储能/新能源方向放量修复，次日不强就按规则退出"
+          "plan": "储能/新能源方向放量修复，次日不强就按规则退出",
+          "today_high": "159.41",
+          "price_change": 5.53,
+          "price_change_str": "+5.53%",
+          "reached_target": true
         },
         {
           "symkey": "301511.XSHE",
@@ -1839,7 +1843,11 @@
           "stop_loss": 150.95,
           "take_profit": 159.49,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "161.50",
+          "price_change": 3.99,
+          "price_change_str": "+3.99%",
+          "reached_target": true
         }
       ],
       "avoid_buys": [
@@ -1857,6 +1865,94 @@
           "symkey": "603986.XSHG",
           "name": "兆易创新",
           "reason": "涨幅约-0.7%、振幅约6.0%，虽主线没问题，但尾盘偏离10日线约21.7%，位置偏高"
+        }
+      ],
+      "win_rate": 1,
+      "verified_on": "2026-06-29"
+    },
+    "2026-06-29": {
+      "picks": [
+        {
+          "symkey": "300502.XSHE",
+          "name": "新易盛",
+          "score": 70,
+          "buy_price": 556.96,
+          "trigger_low": 551.39,
+          "trigger_high": 559.74,
+          "trigger_range": "551.39 - 559.74",
+          "stop_loss": 541.37,
+          "take_profit": 572,
+          "position": "8%",
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+        },
+        {
+          "symkey": "688256.XSHG",
+          "name": "寒武纪",
+          "score": 70,
+          "buy_price": 1482,
+          "trigger_low": 1467.18,
+          "trigger_high": 1489.41,
+          "trigger_range": "1467.18 - 1489.41",
+          "stop_loss": 1440.5,
+          "take_profit": 1522.01,
+          "position": "8%",
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+        },
+        {
+          "symkey": "688981.XSHG",
+          "name": "中芯国际",
+          "score": 70,
+          "buy_price": 151,
+          "trigger_low": 149.49,
+          "trigger_high": 151.76,
+          "trigger_range": "149.49 - 151.76",
+          "stop_loss": 146.77,
+          "take_profit": 155.08,
+          "position": "8%",
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+        },
+        {
+          "symkey": "002156.XSHE",
+          "name": "通富微电",
+          "score": 70,
+          "buy_price": 72.58,
+          "trigger_low": 71.85,
+          "trigger_high": 72.94,
+          "trigger_range": "71.85 - 72.94",
+          "stop_loss": 70.55,
+          "take_profit": 74.54,
+          "position": "8%",
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+        },
+        {
+          "symkey": "002851.XSHE",
+          "name": "麦格米特",
+          "score": 70,
+          "buy_price": 161.32,
+          "trigger_low": 159.71,
+          "trigger_high": 162.13,
+          "trigger_range": "159.71 - 162.13",
+          "stop_loss": 156.8,
+          "take_profit": 165.68,
+          "position": "8%",
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+        }
+      ],
+      "avoid_buys": [
+        {
+          "symkey": "601208.XSHG",
+          "name": "东材科技",
+          "reason": "跌幅约-8.6%，5日跌幅约-15.7%，属于高位急跌，不适合尾盘接飞刀"
+        },
+        {
+          "symkey": "688629.XSHG",
+          "name": "华丰科技",
+          "reason": "涨幅约18.1%、振幅约15.0%，强但不是低吸点，次日容易分歧"
+        },
+        {
+          "symkey": "301611.XSHE",
+          "name": "珂玛科技",
+          "reason": "涨幅约5.6%、振幅约12.2%，强但不是低吸点，次日容易分歧"
         }
       ]
     }

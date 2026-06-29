@@ -1,33 +1,36 @@
 {
-  "generatedAt": "2026-06-26T10:02:02.498Z",
+  "generatedAt": "2026-06-29T11:48:51.228Z",
   "source": "github-actions",
-  "targetDate": "2026-06-26",
+  "targetDate": "2026-06-29",
   "verification": {
     "verified": true,
-    "previousDate": "2026-06-24",
-    "total": 5,
-    "wins": 3,
-    "winRate": 0.6,
-    "message": "验证完毕：5 只标的，3 只达到 >2% 次日冲高。"
+    "previousDate": "2026-06-26",
+    "total": 2,
+    "wins": 2,
+    "winRate": 1,
+    "message": "验证完毕：2 只标的，2 只达到 >2% 次日冲高。"
   },
   "optimization": {
-    "modeSignal": "保持",
+    "modeSignal": "放宽",
     "params": {
-      "min_turnover": 288000000,
-      "max_dist_ma10": 0.0512,
-      "max_amplitude": 0.12150000000000001,
-      "min_drop_5d": -0.064
+      "min_turnover": 259200000,
+      "max_dist_ma10": 0.05632000000000001,
+      "max_amplitude": 0.13365000000000002,
+      "min_drop_5d": -0.15
     },
-    "previousDate": "2026-06-24",
-    "winRate": 0.6
+    "previousDate": "2026-06-26",
+    "winRate": 1
   },
   "scan": {
     "picks": [
-      "阳光电源(300274.XSHE)",
-      "德福科技(301511.XSHE)"
+      "新易盛(300502.XSHE)",
+      "寒武纪(688256.XSHG)",
+      "中芯国际(688981.XSHG)",
+      "通富微电(002156.XSHE)",
+      "麦格米特(002851.XSHE)"
     ],
     "avoidCount": 3,
     "candidateCount": 150,
-    "filteredCount": 145
+    "filteredCount": 126
   }
 }
