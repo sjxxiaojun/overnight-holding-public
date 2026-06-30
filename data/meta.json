@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-06-29T11:48:51.228Z",
+  "generatedAt": "2026-06-30T10:22:11.367Z",
   "source": "github-actions",
-  "targetDate": "2026-06-29",
+  "targetDate": "2026-06-30",
   "verification": {
     "verified": true,
-    "previousDate": "2026-06-26",
-    "total": 2,
-    "wins": 2,
+    "previousDate": "2026-06-29",
+    "total": 5,
+    "wins": 5,
     "winRate": 1,
-    "message": "验证完毕：2 只标的，2 只达到 >2% 次日冲高。"
+    "message": "验证完毕：5 只标的，5 只达到 >2% 次日冲高。"
   },
   "optimization": {
     "modeSignal": "放宽",
     "params": {
-      "min_turnover": 259200000,
-      "max_dist_ma10": 0.05632000000000001,
-      "max_amplitude": 0.13365000000000002,
-      "min_drop_5d": -0.15
+      "min_turnover": 233280000,
+      "max_dist_ma10": 0.061952000000000014,
+      "max_amplitude": 0.14701500000000003,
+      "min_drop_5d": -0.165
     },
-    "previousDate": "2026-06-26",
+    "previousDate": "2026-06-29",
     "winRate": 1
   },
   "scan": {
     "picks": [
-      "新易盛(300502.XSHE)",
-      "寒武纪(688256.XSHG)",
-      "中芯国际(688981.XSHG)",
-      "通富微电(002156.XSHE)",
-      "麦格米特(002851.XSHE)"
+      "中天科技(600522.XSHG)",
+      "天孚通信(300394.XSHE)",
+      "生益科技(600183.XSHG)",
+      "中钨高新(000657.XSHE)",
+      "利通电子(603629.XSHG)"
     ],
     "avoidCount": 3,
     "candidateCount": 150,
-    "filteredCount": 126
+    "filteredCount": 123
   }
 }
