@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-06-30T10:22:11.367Z",
+  "generatedAt": "2026-07-01T10:33:30.233Z",
   "source": "github-actions",
-  "targetDate": "2026-06-30",
+  "targetDate": "2026-07-01",
   "verification": {
     "verified": true,
-    "previousDate": "2026-06-29",
+    "previousDate": "2026-06-30",
     "total": 5,
-    "wins": 5,
-    "winRate": 1,
-    "message": "验证完毕：5 只标的，5 只达到 >2% 次日冲高。"
+    "wins": 2,
+    "winRate": 0.4,
+    "message": "验证完毕：5 只标的，2 只达到 >2% 次日冲高。"
   },
   "optimization": {
-    "modeSignal": "放宽",
+    "modeSignal": "收紧",
     "params": {
-      "min_turnover": 233280000,
-      "max_dist_ma10": 0.061952000000000014,
-      "max_amplitude": 0.14701500000000003,
-      "min_drop_5d": -0.165
+      "min_turnover": 279936000,
+      "max_dist_ma10": 0.04956160000000001,
+      "max_amplitude": 0.13231350000000003,
+      "min_drop_5d": -0.08
     },
-    "previousDate": "2026-06-29",
-    "winRate": 1
+    "previousDate": "2026-06-30",
+    "winRate": 0.4
   },
   "scan": {
     "picks": [
-      "中天科技(600522.XSHG)",
-      "天孚通信(300394.XSHE)",
-      "生益科技(600183.XSHG)",
-      "中钨高新(000657.XSHE)",
-      "利通电子(603629.XSHG)"
+      "天华新能(300390.XSHE)",
+      "中信证券(600030.XSHG)",
+      "风华高科(000636.XSHE)",
+      "蓝思科技(300433.XSHE)",
+      "国际复材(301526.XSHE)"
     ],
     "avoidCount": 3,
     "candidateCount": 150,
-    "filteredCount": 123
+    "filteredCount": 135
   }
 }
