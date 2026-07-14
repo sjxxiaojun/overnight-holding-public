@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-07-01T10:33:30.233Z",
+  "generatedAt": "2026-07-14T08:55:30.724Z",
   "source": "github-actions",
-  "targetDate": "2026-07-01",
+  "targetDate": "2026-07-14",
   "verification": {
     "verified": true,
-    "previousDate": "2026-06-30",
+    "previousDate": "2026-07-01",
     "total": 5,
-    "wins": 2,
-    "winRate": 0.4,
-    "message": "验证完毕：5 只标的，2 只达到 >2% 次日冲高。"
+    "wins": 0,
+    "winRate": 0,
+    "message": "验证完毕：5 只标的，0 只达到 >2% 次日冲高。"
   },
   "optimization": {
     "modeSignal": "收紧",
     "params": {
-      "min_turnover": 279936000,
-      "max_dist_ma10": 0.04956160000000001,
-      "max_amplitude": 0.13231350000000003,
-      "min_drop_5d": -0.08
+      "min_turnover": 335923200,
+      "max_dist_ma10": 0.03964928000000001,
+      "max_amplitude": 0.11908215000000003,
+      "min_drop_5d": -0.064
     },
-    "previousDate": "2026-06-30",
-    "winRate": 0.4
+    "previousDate": "2026-07-01",
+    "winRate": 0
   },
   "scan": {
     "picks": [
-      "天华新能(300390.XSHE)",
-      "中信证券(600030.XSHG)",
-      "风华高科(000636.XSHE)",
-      "蓝思科技(300433.XSHE)",
-      "国际复材(301526.XSHE)"
+      "长川科技(300604.XSHE)",
+      "贵州茅台(600519.XSHG)",
+      "中科飞测(688361.XSHG)",
+      "长江电力(600900.XSHG)",
+      "华峰测控(688200.XSHG)"
     ],
     "avoidCount": 3,
     "candidateCount": 150,
-    "filteredCount": 135
+    "filteredCount": 134
   }
 }
