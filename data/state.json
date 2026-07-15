@@ -2207,7 +2207,11 @@
           "stop_loss": 326.22,
           "take_profit": 344.68,
           "position": "8%",
-          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出",
+          "today_high": "344.02",
+          "price_change": 2.5,
+          "price_change_str": "+2.50%",
+          "reached_target": true
         },
         {
           "symkey": "600519.XSHG",
@@ -2220,7 +2224,11 @@
           "stop_loss": 1180.86,
           "take_profit": 1247.68,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "1256.60",
+          "price_change": 3.43,
+          "price_change_str": "+3.43%",
+          "reached_target": true
         },
         {
           "symkey": "688361.XSHG",
@@ -2233,7 +2241,11 @@
           "stop_loss": 380.91,
           "take_profit": 402.46,
           "position": "8%",
-          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出",
+          "today_high": "408.99",
+          "price_change": 4.37,
+          "price_change_str": "+4.37%",
+          "reached_target": true
         },
         {
           "symkey": "600900.XSHG",
@@ -2246,7 +2258,11 @@
           "stop_loss": 27.75,
           "take_profit": 29.32,
           "position": "8%",
-          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出",
+          "today_high": "28.77",
+          "price_change": 0.77,
+          "price_change_str": "+0.77%",
+          "reached_target": false
         },
         {
           "symkey": "688200.XSHG",
@@ -2259,7 +2275,11 @@
           "stop_loss": 486.97,
           "take_profit": 514.53,
           "position": "8%",
-          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出",
+          "today_high": "508.00",
+          "price_change": 1.4,
+          "price_change_str": "+1.40%",
+          "reached_target": false
         }
       ],
       "avoid_buys": [
@@ -2277,6 +2297,94 @@
           "symkey": "300433.XSHE",
           "name": "蓝思科技",
           "reason": "涨幅约2.0%、振幅约6.8%，虽主线没问题，但尾盘偏离10日线约15.0%，位置偏高"
+        }
+      ],
+      "win_rate": 0.6,
+      "verified_on": "2026-07-15"
+    },
+    "2026-07-15": {
+      "picks": [
+        {
+          "symkey": "301165.XSHE",
+          "name": "锐捷网络",
+          "score": 70,
+          "buy_price": 100.7,
+          "trigger_low": 99.69,
+          "trigger_high": 101.2,
+          "trigger_range": "99.69 - 101.2",
+          "stop_loss": 97.88,
+          "take_profit": 103.42,
+          "position": "8%",
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+        },
+        {
+          "symkey": "000063.XSHE",
+          "name": "中兴通讯",
+          "score": 50,
+          "buy_price": 39.45,
+          "trigger_low": 39.06,
+          "trigger_high": 39.65,
+          "trigger_range": "39.06 - 39.65",
+          "stop_loss": 38.35,
+          "take_profit": 40.52,
+          "position": "8%",
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+        },
+        {
+          "symkey": "600519.XSHG",
+          "name": "贵州茅台",
+          "score": 50,
+          "buy_price": 1251.06,
+          "trigger_low": 1238.55,
+          "trigger_high": 1257.32,
+          "trigger_range": "1238.55 - 1257.32",
+          "stop_loss": 1216.03,
+          "take_profit": 1284.84,
+          "position": "8%",
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+        },
+        {
+          "symkey": "601899.XSHG",
+          "name": "紫金矿业",
+          "score": 50,
+          "buy_price": 28.83,
+          "trigger_low": 28.54,
+          "trigger_high": 28.97,
+          "trigger_range": "28.54 - 28.97",
+          "stop_loss": 28.02,
+          "take_profit": 29.61,
+          "position": "8%",
+          "plan": "主板标的，次日冲高优先兑现；弱开跌破买入价分批退出"
+        },
+        {
+          "symkey": "300059.XSHE",
+          "name": "东方财富",
+          "score": 50,
+          "buy_price": 20.14,
+          "trigger_low": 19.94,
+          "trigger_high": 20.24,
+          "trigger_range": "19.94 - 20.24",
+          "stop_loss": 19.58,
+          "take_profit": 20.68,
+          "position": "8%",
+          "plan": "高波动标的，注意10日线附近低吸试仓，次日弱开按规则退出"
+        }
+      ],
+      "avoid_buys": [
+        {
+          "symkey": "688629.XSHG",
+          "name": "华丰科技",
+          "reason": "跌幅约-6.8%，5日跌幅约-18.4%，属于高位急跌，不适合尾盘接飞刀"
+        },
+        {
+          "symkey": "688333.XSHG",
+          "name": "铂力特",
+          "reason": "涨幅约16.7%、振幅约17.5%，强但不是低吸点，次日容易分歧"
+        },
+        {
+          "symkey": "600879.XSHG",
+          "name": "航天电子",
+          "reason": "跌幅约-10.0%且跌停，5日跌幅约-16.2%，属于高位急跌，不适合尾盘接飞刀"
         }
       ]
     }

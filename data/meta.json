@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-07-14T08:55:30.724Z",
+  "generatedAt": "2026-07-15T09:01:29.905Z",
   "source": "github-actions",
-  "targetDate": "2026-07-14",
+  "targetDate": "2026-07-15",
   "verification": {
     "verified": true,
-    "previousDate": "2026-07-01",
+    "previousDate": "2026-07-14",
     "total": 5,
-    "wins": 0,
-    "winRate": 0,
-    "message": "验证完毕：5 只标的，0 只达到 >2% 次日冲高。"
+    "wins": 3,
+    "winRate": 0.6,
+    "message": "验证完毕：5 只标的，3 只达到 >2% 次日冲高。"
   },
   "optimization": {
-    "modeSignal": "收紧",
+    "modeSignal": "保持",
     "params": {
       "min_turnover": 335923200,
       "max_dist_ma10": 0.03964928000000001,
       "max_amplitude": 0.11908215000000003,
       "min_drop_5d": -0.064
     },
-    "previousDate": "2026-07-01",
-    "winRate": 0
+    "previousDate": "2026-07-14",
+    "winRate": 0.6
   },
   "scan": {
     "picks": [
-      "长川科技(300604.XSHE)",
+      "锐捷网络(301165.XSHE)",
+      "中兴通讯(000063.XSHE)",
       "贵州茅台(600519.XSHG)",
-      "中科飞测(688361.XSHG)",
-      "长江电力(600900.XSHG)",
-      "华峰测控(688200.XSHG)"
+      "紫金矿业(601899.XSHG)",
+      "东方财富(300059.XSHE)"
     ],
     "avoidCount": 3,
     "candidateCount": 150,
-    "filteredCount": 134
+    "filteredCount": 124
   }
 }
