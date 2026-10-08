@@ -1,36 +1,27 @@
 {
-  "generatedAt": "2026-07-15T09:01:29.905Z",
-  "source": "github-actions",
-  "targetDate": "2026-07-15",
+  "generatedAt": "2026-10-08T11:59:25.679Z",
+  "source": "local-snapshot",
+  "targetDate": "2026-09-25",
+  "historyCount": 85,
   "verification": {
     "verified": true,
-    "previousDate": "2026-07-14",
-    "total": 5,
-    "wins": 3,
-    "winRate": 0.6,
-    "message": "验证完毕：5 只标的，3 只达到 >2% 次日冲高。"
+    "previousDate": "2026-09-23",
+    "verifiedOn": "2026-09-24",
+    "winRate": 0.2,
+    "message": "2026-09-23 的验证汇总来自本地运行快照。"
   },
   "optimization": {
-    "modeSignal": "保持",
+    "modeSignal": "本地快照",
     "params": {
-      "min_turnover": 335923200,
-      "max_dist_ma10": 0.03964928000000001,
-      "max_amplitude": 0.11908215000000003,
-      "min_drop_5d": -0.064
+      "min_turnover": 350000000,
+      "max_dist_ma10": 0.05,
+      "max_amplitude": 0.095,
+      "min_drop_5d": -0.08669999999999999
     },
-    "previousDate": "2026-07-14",
-    "winRate": 0.6
+    "previousDate": null
   },
   "scan": {
-    "picks": [
-      "锐捷网络(301165.XSHE)",
-      "中兴通讯(000063.XSHE)",
-      "贵州茅台(600519.XSHG)",
-      "紫金矿业(601899.XSHG)",
-      "东方财富(300059.XSHE)"
-    ],
-    "avoidCount": 3,
-    "candidateCount": 150,
-    "filteredCount": 124
+    "skipped": true,
+    "reason": "同步本地已生成的历史记录与最新快照"
   }
 }
